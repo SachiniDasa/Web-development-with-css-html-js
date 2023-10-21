@@ -1,0 +1,21 @@
+body {
+    background-image: url(./eustoma-flowers-with-blank-spiral-notebook-with-purple-pencil-against-pink-background_23-2147923971.jpg);
+    background-position: initial;
+}
+
+#sec {
+    width: 400px;
+    padding-left: 200px;
+}
+
+.namelist {
+    width: 300px;
+}
+
+.addto {
+    color: rgb(14, 12, 12);
+}
+
+.namelist {
+    color: rgb(17, 14, 14);
+}

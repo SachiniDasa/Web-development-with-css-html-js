@@ -1,0 +1,36 @@
+#diceroll {
+    background-image: url(./download.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.d1 {
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+}
+
+.d2 {
+    background-color: darkkhaki;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+}
+
+#Dice {
+    display: flex;
+}
+
+.change {
+    background-color: rgb(94, 40, 40);
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 5px;
+}

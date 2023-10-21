@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./diceroll.css">
+    <title>Dice roll</title>
+</head>
+
+<body id="diceroll">
+    <h1>Let's play !</h1>
+    <div>
+        <h2>Instruction</h2>
+        <li>click on the dice to play.</li>
+        <li>IF both dices get the same number you "WIN"</li>
+        <li>To know your status click status button</li>
+        <li>To play again click reset button</li>
+
+
+
+    </div>
+    <div id="Dice">
+        <div class="d1">Dice 1</div>
+        <div class="d2">Dice2</div>
+    </div>
+
+    <h2>Dice1 value => <span id="dice1"></span></h2>
+    <h2>Dice2 value => <span id="dice2"></span></h2>
+    <h2>Status:<span id="status" style="color: crimson;"></span></h2>
+
+    <button id="btn">status</button>
+    <button id="reset">Reset</button>
+    <script src="./diceroll.js"></script>
+</body>
+
+</html>
